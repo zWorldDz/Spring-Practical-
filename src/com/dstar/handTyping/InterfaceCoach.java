@@ -5,5 +5,5 @@ public interface InterfaceCoach {
 	public String getStr();
 	public String getSpeed();
 	public String getPower();
-
+	public String getFlyFortune();
 }

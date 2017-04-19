@@ -12,9 +12,15 @@
     
  	<bean id="theFlyCoach"
  	class="com.dstar.handTyping.FlyCoach">
+ 	<!-- <constructor-arg ref="fortune"/>-->
+ 	<property name="interfaceFortune" ref="fortune"></property>
  	</bean>
-
-</beans>
+ 	
+ 	<bean id="fortune"
+ 	class="com.dstar.handTyping.SadFortune">
+ 	</bean>
+ 	
+ 	</beans>
 
 
 
